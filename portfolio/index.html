@@ -1,0 +1,94 @@
+<DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Damayanthi velamala's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Here is My Portfolio</h1>
+        <nav>
+            <a href="#about"><button>About</button></a>
+            <a href="#skills"><button>Skills</button></a>
+            <a href="#projects"><button>Projects</button></a>
+            <a href="#certifications"><button>Certifications</button></a>
+            <a href="#contact"><button>Contact</button></a>
+        </nav>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>DAMAYANTHI VELAMALA</h2
+        <p>👩‍💻 I'm a passionate <strong>web developer</strong> and <strong>machine learning enthusiast</strong>. I love building interactive websites and working on data-driven projects.</p>
+        <p>🎓 <strong>Education</strong>: Pursuing B.Tech at <em>Kakinada Institute of Engineering Technologies for Women</em>, Kakinada.</p>
+        <p>💡 <strong>Interests</strong>: Frontend Development, Machine Learning, Python Programming.</p>
+        <p>📌 <strong>Goal</strong>: To become a full-stack developer and contribute to impactful tech projects.</p>
+        <p>🔗 <strong>Links:</strong> 
+            <a href="https://www.linkedin.com/in/damayanthi-velamala target="_blank">LinkedIn</a>
+        </p>
+        <a href="#skills"><button class="section-btn">Explore My Skills</button></a>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>My Skills</h2>
+        <div class="skills-container">
+            <div class="skill">Python</div>
+            <div class="skill">HTML & CSS</div>
+            <div class="skill">JavaScript</div>
+            <div class="skill">Machine Learning</div>
+        </div>
+        <a href="#projects"><button class="section-btn">View My Projects</button></a>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects-container">
+            <div class="project-card">
+                <h3>Portfolio Website</h3>
+                <p>A responsive personal portfolio using HTML, CSS, and JavaScript.</p>
+            </div>
+            <div class="project-card">
+                <h3>Heart Disease Prediction</h3>
+                <p>Machine learning model for heart disease prediction.</p>
+            </div>
+        </div>
+        <a href="#certifications"><button class="section-btn">View My Certifications</button></a>
+    </section>
+    <section id="certifications">
+        <h2>Certifications</h2>
+        <ul>
+          <li> Basics of Python - INFOSYS SPRING BOARD</li>
+          <li>Machine Learning - INFOSYS SPRING BOARD</li>
+        </ul>
+        <a href="#contact"><button class="section-btn">Get in Touch</button></a>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Feel free to reach out to me!</p>
+        <form action="#">
+            <center><input type="text" name="name" placeholder="Your Name" required></center>
+
+            <input type="email" name="email" placeholder="Your Email" required><br>
+        </br>
+            <label><b>Gender:</b></label>
+            <div class="gender-options">
+                <input type="radio" id="male" name="gender" value="male"> <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female"> <label for="female">Female</label>
+                <input type="radio" id="other" name="gender" value="other"> <label for="other">Other</label>
+            </div>
+
+            <center><textarea name="message" placeholder="Your Message" rows="4" required></textarea></center>
+            
+            <center><button type="submit">Send Message</button></center>
+        </form>
+    </section>
+</body>
+</html>
